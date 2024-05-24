@@ -1,0 +1,70 @@
+.mainshopping{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.all-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 16px;
+}
+.dialog-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.dialog-card{
+    width: 100%;
+    border-radius: 16px;
+
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    
+}
+.campaign-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .quantity-controls .p-button {
+    width: 36px; 
+    height: 36px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+  }
+  
+  .quantity-controls .p-inputnumber {
+    width: 5%; 
+    text-align: center;
+  }
+  

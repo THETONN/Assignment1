@@ -1,0 +1,76 @@
+/* DiscountManager.css */
+.discount-manager {
+  padding: 20px;
+  background: #333;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.discount-manager h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #f7f7f7;
+}
+
+.campaign-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.p-dropdown {
+  width: 200px;
+}
+
+.p-button-primary {
+  background-color: #007ad9;
+  border: none;
+  color: white;
+}
+
+.p-button-primary:hover {
+  background-color: #005bb5;
+}
+
+/* เพิ่มการเปลี่ยนแปลง */
+.campaign-selector .p-dropdown {
+  flex: 1;
+  min-width: 200px;
+  transition: width 0.3s ease;
+}
+
+.campaign-selector .p-dropdown:focus-within {
+  width: 100%;
+}
+
+.campaign-list {
+  margin-top: 20px;
+}
+
+.campaign-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.campaign-item span {
+  flex: 1;
+}
+
+.campaign-item .p-button-danger {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+}
+
+.campaign-item .p-button-danger:hover {
+  background-color: #c82333;
+}
+
+.maincampaign{
+    display: flex;
+}
